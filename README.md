@@ -1,5 +1,5 @@
 # FACE_RECOGNITION_ATTENDANCE_SYSTEM
-This is a face recognition attendance system where the face is read and checked if it present in our database, if it presents then the attendance sheet is updated with the name and the time, when the face is recognized
+This is a face recognition attendance system where the face is read and checked if it is present in our database, if it presents then the attendance sheet is updated with the name and the time when the face is recognized
 
 YOU NEED TO ADD THE PHOTO AND THE NAME OF THE PERSON, then the photos gets encoded with the help of deep learning whenever it gets a new face the same trained model is use to
 create encoding of the new face, the face with the least distance is selected, but if the distance of the new face is high from the most possible face then we may say that the person is not available in our database
